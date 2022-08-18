@@ -1,1 +1,1 @@
-# week-12-algorythms
+# week-12-algorithms
