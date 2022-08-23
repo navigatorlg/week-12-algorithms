@@ -7,6 +7,7 @@ function findLongestWord(line) {
   );
   console.log(longestWord);
 }
+console.log("Task 1 - This is the longest word in a given string ===>");
 findLongestWord("I love to rock and Codemify");
 
 // =========================================================
@@ -57,7 +58,7 @@ function duplicateEmailUsers(array) {
   const duplicates = array.filter((obj) => arrayEmail.includes(obj.email));
   console.log(duplicates);
 }
-
+console.log("Task 2 - These are users with duplicated emails (if any) ===>");
 duplicateEmailUsers(users);
 
 // 3. Find the youngest user in users object
@@ -68,7 +69,7 @@ function youngestUser(array) {
     )
   );
 }
-
+console.log("Task 3 - This is the youngest user in given object ===>");
 youngestUser(users);
 
 // 4. Find user with missing email
@@ -78,12 +79,12 @@ function missingEmailUsers(array) {
   );
   console.log(...arrayWithMissingEmails);
 }
-
+console.log("Task 4 - These are the user(s) with missing email ===>");
 missingEmailUsers(users);
 
 // 5. Return an object of users with gmail emails only
 function gmailUsers(array) {
   console.log(array.filter((element) => element.email.includes("@gmail.com")));
 }
-
+console.log("Task 5 - These are the user(s) with gmail email only ===>");
 gmailUsers(users);
